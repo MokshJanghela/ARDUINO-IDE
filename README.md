@@ -11,7 +11,7 @@ void setup() {
  void loop(){
   for (int i = 0; i < 4; i++) {
     digitalWrite(leds[i], HIGH);
-    delay(100);                                              /*kuytrdcvbjk*/      
+    delay(100);                                              /* Select delay(time) To change blinking speed fast and slow */      
     digitalWrite(leds[i], LOW);
   }
  }/*Sketch uses 968 bytes (3%) of program storage space. Maximum is 32256 bytes.
